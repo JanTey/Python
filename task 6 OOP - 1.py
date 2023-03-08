@@ -13,7 +13,7 @@ class Animals:
     def show_voice(self):
         print("Голос подвида '{}' по имени {} звучит как {}!".format(self.kind, self.name, self.voice))
 
-
+# end parents class
 class BigAnimals(Animals):
     def __init__(self, voice, name, legs, weight, kind, color):
         super().__init__(voice, name, legs, weight, kind, color)
